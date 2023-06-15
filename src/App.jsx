@@ -1,12 +1,16 @@
 
 import './App.css'
-import { Home } from './pages/Home/Home'
+import { Body } from './pages/Body/Body'
 
 function App() {
 
   return (
     <>
-      <Home />
+      {/* Si tuviese un header, podría colocarlo aquí encima */}
+
+        <Body />
+
+      {/* Si tuviese un footer, podría hacer lo propio aquí debajo */}
     </>
   )
 }
